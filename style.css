@@ -1,7 +1,38 @@
+/* * {
+    outline: 2px solid red;
+} */
+
 body{
     background: url(background/table.jpg);
 }   
 
-jumbotron{
-    position: ;
+.jumbo{
+    background-color: transparent;
+    position: relative;
+    top: 200px;
+    width: 100%;
+    
+}
+
+.container, .row {
+    max-width: 100%;
+}
+
+
+.cont{
+    border: rgb(146, 130, 238);
+    color: violet;
+}
+
+#carddeck > img{
+   /* bottom: -200px; */
+   height: 200px;
+   width: 120px;
+   margin-left: 10px
+}
+
+.card-deck {
+    position: relative;
+    top: -200px;
+    left: 100px;
 }
