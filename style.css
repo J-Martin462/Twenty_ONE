@@ -20,12 +20,12 @@ body{
 
 
 .cont{
-    border: rgb(146, 130, 238);
-    color: violet;
+    border: rgb(13, 231, 86);
+    color:rgb(13, 231, 86);
 }
 
 #carddeck > img{
-   /* bottom: -200px; */
+   bottom: -200px;
    height: 200px;
    width: 120px;
    margin-left: 10px
@@ -33,6 +33,16 @@ body{
 
 .card-deck {
     position: relative;
-    top: -200px;
+    align-content: middle;
+    margin-left: auto;
+    margin-right:auto;
+    top: 200px;
     left: 100px;
+}
+
+.carddeck-comp{
+    position: top;
+    top: 200px;
+    left: 100px;
+
 }

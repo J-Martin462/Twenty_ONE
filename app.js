@@ -13,7 +13,7 @@ function hit(){
     var r = Math.floor(Math.random() * 10) + 1
     var suits = [ "C", "D", "H", "S"]
     var ransuit = Math.floor(Math.random() * 4)
-    document.getElementById("carddeck").insertAdjacentHTML ("beforeend", "<img src=Cards/"+ r + suits[ransuit] +".jpg class=card-img-top alt=..>")
+    document.getElementById("carddeck").insertAdjacentHTML ("beforeend", "<img src=images/"+ r + suits[ransuit] +".jpg class=card-img-top alt=..>")
     return r
 }
 
@@ -21,7 +21,7 @@ function compGam() {
     var r = Math.floor(Math.random() * 10) + 1
     var suits = [ "C", "D", "H", "S"]
     var ransuit = Math.floor(Math.random() * 4)
-    document.getElementById("carddeck-comp").insertAdjacentHTML ("beforeend", "<img src=Cards/"+ r + suits[ransuit] +".jpg class=card-img-top alt=..>")
+    document.getElementById("carddeck-comp").insertAdjacentHTML ("beforeend", "<img src=images/"+ r + suits[ransuit] +".jpg class=card-img-top alt=..>")
     return r
     
 }
