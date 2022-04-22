@@ -22,7 +22,6 @@ function usrgm(){
 }
 
 function hit(){
-    var q = 0
     q = usrgm() + q
     if (q > 20) {
         document.getElementById("jumbo").innerText = ("You BUSTED. Reset.")
