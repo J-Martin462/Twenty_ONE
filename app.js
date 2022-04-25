@@ -84,3 +84,4 @@ function fullGame(a, y) {
         }
 }
 fullGame(compLogic(), hit())
+
